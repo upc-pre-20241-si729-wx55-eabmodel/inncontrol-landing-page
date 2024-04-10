@@ -9,3 +9,9 @@
 - ![#bae0fc](https://via.placeholder.com/15/bae0fc/000000?text=+) `#bae0fc`
 - ![#dbeffe](https://via.placeholder.com/15/dbeffe/000000?text=+) `#dbeffe`
 - ![#fbffff](https://via.placeholder.com/15/fbffff/000000?text=+) `#fbffff`
+
+### Build
+
+```bash
+npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/output.css --watch
+```
