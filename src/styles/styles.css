@@ -122,3 +122,8 @@ a {
 #about {
     background-color: var(--cc-3);
 }
+
+/* Testimonials */
+#testimonials {
+    background-color: var(--cc-3);
+}
