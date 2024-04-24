@@ -1,3 +1,5 @@
+/* Global props */
+
 :root {
     --cc-1: #00628d;
     --cc-2: #1654bf;
@@ -9,7 +11,7 @@
     --cc-8: #fbffff;
 }
 
-
+/* Reset CSS */
 html {
     scroll-behavior: smooth;
 }
@@ -19,16 +21,26 @@ html {
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif; */
     font-family: 'Varela Round', sans-serif;
 }
+
 a {
     text-decoration: none;
 }
 
-.logo-img {
-    width: 40%;
+/* Boostrap Styles */
+
+#banner {
+    height: 100vh !important;
+}
+
+#banner, #main, section, #footer {
+    overflow-x: hidden;
+}
+
+.navbar {
+    position: relative;
+    z-index: 999;
 }
 
 .nav-link a:hover {
@@ -40,4 +52,61 @@ a {
     --bs-btn-color-bg: var(--cc-1);
     --bs-btn-color: white;
     background-color: var(--cc-2);
+}
+
+/* Custom styles */
+
+.logo-img {
+    width: 40%;
+}
+
+#banner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner .hero {
+    position: relative;
+    z-index: 10;
+}
+
+.sign-up {
+    width: 85%;
+    border-radius: 16px;
+    background-color: var(--cc-3);
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+.pricing {
+    width: 85%;
+    border-radius: 16px;
+    background-color: var(--cc-6);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+
+/* ICONBOX */
+.iconbox {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #E4F1FF;
+    color: #8172f3;
+    font-size: 34px;
+    flex: none;
 }
