@@ -127,3 +127,50 @@ a {
 #testimonials {
     background-color: var(--cc-3);
 }
+
+/*Pricing*/
+#pricing {
+    background-color: var(--cc-6);
+}
+
+/*------------ Plains Prices ------------*/
+
+.plains .add_cart > a {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 0;
+    /* border: 1px solid #ca416f; */
+    border-radius: 8px;
+    color: #fff;
+    background-color: var(--cc-3);
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.plains .plains_info {
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
+    color: #333;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--cc-7);
+    /* border: 1px solid #8172f3; */
+}
+
+.plains .plains_info > h1 > span {
+    font-size: 17px;
+    text-transform: lowercase;
+}
+
+.plains ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plains ul > li::before {
+    content: '\2022';
+    color: black;
+    font-weight: bold;
+    margin-right: 8px;
+}
