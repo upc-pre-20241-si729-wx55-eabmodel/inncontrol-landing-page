@@ -1,0 +1,43 @@
+:root {
+    --cc-1: #00628d;
+    --cc-2: #1654bf;
+    --cc-3: #529bca;
+    --cc-4: #72b9ea;
+    --cc-5: #96d1fb;
+    --cc-6: #bae0fc;
+    --cc-7: #dbeffe;
+    --cc-8: #fbffff;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Varela Round', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 40%;
+}
+
+.nav-link a:hover {
+    color: var(--cc-1);
+}
+
+.btn-sign-up {
+    --bs-btn-hover-bg: var(--cc-3);
+    --bs-btn-color-bg: var(--cc-1);
+    --bs-btn-color: white;
+    background-color: var(--cc-2);
+}
