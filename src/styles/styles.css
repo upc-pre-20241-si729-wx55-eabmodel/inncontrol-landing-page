@@ -98,14 +98,23 @@ a {
 }
 
 /* ICONBOX */
-.iconbox {
-    width: 70px;
-    height: 70px;
+.icon-box {
+    width: 90px;
+    height: 90px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #E4F1FF;
-    color: #8172f3;
-    font-size: 34px;
+    font-size: 50px;
     flex: none;
+}
+
+#benefits {
+    background-color: var(--cc-6);
+}
+
+.service {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    background: var(--cc-7);
 }
