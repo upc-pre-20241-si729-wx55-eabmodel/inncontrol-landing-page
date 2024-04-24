@@ -97,7 +97,6 @@ a {
     transition: all .3s ease;
 }
 
-/* ICONBOX */
 .icon-box {
     width: 90px;
     height: 90px;
@@ -117,4 +116,9 @@ a {
     overflow: hidden;
     z-index: 2;
     background: var(--cc-7);
+}
+
+ /* Abouts US*/
+#about {
+    background-color: var(--cc-3);
 }

@@ -1,4 +1,6 @@
-## Landing Page
+# Deployment
+### The website is deployed using Netlify. You can view the deployment status in real-time using the following badge:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/82dd6e4e-6cd1-4ac1-be8a-82dd9ca642e7/deploy-status)](https://app.netlify.com/sites/inncontrol/deploys)
 
 ### Colors:
 - ![#f03c15](https://via.placeholder.com/15/00628d/000000?text=+) `#00628d`
