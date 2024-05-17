@@ -174,3 +174,87 @@ a {
     font-weight: bold;
     margin-right: 8px;
 }
+/* Footer Container */
+.container-footer {
+    background-color: #0066AE ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%; /* Reduce la altura a un 80% */
+}
+
+/* Footer General Styling */
+
+
+/* Footer Left Section */
+.footer-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.footer-icon {
+    margin-right: 10px;
+}
+
+.footer-quote {
+    max-width: 300px;
+}
+
+/* Footer Links */
+.footer-links {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 2; /* Two columns for the links */
+}
+
+.footer-links li {
+    margin: 5px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Right Section */
+.footer-right {
+    text-align: right;
+    flex: 1;
+}
+
+.footer-brand h2 {
+    margin: 0;
+}
+
+.footer-socials {
+    margin-top: 10px;
+}
+
+.footer-socials span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-socials a {
+    color: #000;
+    margin-left: 10px;
+}
+
+.footer-socials a:hover {
+    color: #007bff;
+}
