@@ -149,6 +149,17 @@ a {
     font-size: 17px;
 }
 
+.video-section {
+    background-color: var(--cc-6);
+/*    center*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+
+}
+
 .plains .plains_info {
     border-radius: 1rem;
     box-shadow: 0 0 10px 5px rgba(0,0,0,0.08);
